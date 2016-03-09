@@ -18,7 +18,7 @@ package org.infoowl;
 @ComponentScan
 @EnableAutoConfiguration
 @SpringBootApplication
-public class TheTaskOneApplication  extends SpringBootServletInitializer{
+public class TheTaskOneApplication extends SpringBootServletInitializer{
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
@@ -31,7 +31,7 @@ public class TheTaskOneApplication  extends SpringBootServletInitializer{
 }
 
 
-
+//takes input and navigates to that address
 @RestController
 class GreetingController {
 

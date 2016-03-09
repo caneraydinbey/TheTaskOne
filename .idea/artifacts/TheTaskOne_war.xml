@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TheTaskOne:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="thetaskone-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TheTaskOne:war exploded" />
+    </root>
+  </artifact>
+</component>
